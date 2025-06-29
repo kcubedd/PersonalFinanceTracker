@@ -9,7 +9,7 @@ const ShowHide = () => {
         {show ? "Hide" : "Show"} Details
       </button>
       {show && (
-        <p style={{ marginTop: "10px" }}>
+        <p>
           This is the hidden paragraph. Click again to hide it.
         </p>
       )}
